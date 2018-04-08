@@ -10,9 +10,6 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
-        <array key="Chalkduster.ttf">
-            <string>Chalkduster</string>
-        </array>
         <array key="HelveticaNeue.ttc">
             <string>HelveticaNeue</string>
             <string>HelveticaNeue-Italic</string>
@@ -20,6 +17,9 @@
         <array key="Noteworthy.ttc">
             <string>Noteworthy-Bold</string>
             <string>Noteworthy-Light</string>
+        </array>
+        <array key="Optima.ttc">
+            <string>Optima-Italic</string>
         </array>
     </customFonts>
     <scenes>
@@ -32,7 +32,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ghg-x1-3ez" customClass="LoginScreen">
-                                <rect key="frame" x="140" y="221" width="95" height="30"/>
+                                <rect key="frame" x="140" y="148" width="95" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleCallout"/>
@@ -49,31 +49,14 @@
                                     <segue destination="Thq-U6-enq" kind="presentation" id="M2N-ly-r7o"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zEE-qD-E6y">
-                                <rect key="frame" x="140" y="267" width="95" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleCallout"/>
-                                <state key="normal" title="Sign Up">
-                                    <color key="titleColor" red="0.033538247479999998" green="0.042793257850000002" blue="0.054161269429999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                    <color key="titleShadowColor" red="0.32115701260000001" green="0.86872571239999996" blue="0.3906579691" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="6"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <segue destination="PKc-J3-g87" kind="presentation" id="mio-Hx-t6O"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Shopping Center @ UCSD" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JPO-e6-b7i">
-                                <rect key="frame" x="16" y="20" width="343" height="193"/>
+                                <rect key="frame" x="16" y="20" width="343" height="109"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="30"/>
+                                <color key="backgroundColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="0.72046232876712324" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Optima-Italic" family="Optima" pointSize="27"/>
                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="1" green="0.14913141730000001" blue="0.0" alpha="0.42142016267123289" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="clothes.png" translatesAutoresizingMaskIntoConstraints="NO" id="3P5-fw-WcU">
                                 <rect key="frame" x="16" y="484" width="117" height="163"/>
@@ -95,6 +78,24 @@
                                 <rect key="frame" x="16" y="221" width="107" height="130"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zEE-qD-E6y">
+                                <rect key="frame" x="139" y="201" width="95" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleCallout"/>
+                                <state key="normal" title="Sign Up">
+                                    <color key="titleColor" red="0.033538247479999998" green="0.042793257850000002" blue="0.054161269429999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="titleShadowColor" red="0.32115701260000001" green="0.86872571239999996" blue="0.3906579691" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="6"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="PKc-J3-g87" kind="presentation" id="mio-Hx-t6O"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.61922934659999995" green="0.79010810300000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -1164,14 +1165,13 @@
         <image name="travel_bag.png" width="450" height="474"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="IU5-y9-vA7"/>
-        <segue reference="NWb-xg-glp"/>
+        <segue reference="M2N-ly-r7o"/>
         <segue reference="4pI-PH-zyF"/>
         <segue reference="LpK-E9-436"/>
         <segue reference="6aT-1N-8YY"/>
         <segue reference="peM-DZ-qAB"/>
         <segue reference="8QI-CU-b48"/>
         <segue reference="YkL-IT-PeO"/>
-        <segue reference="2af-fB-JVZ"/>
+        <segue reference="Wui-Y3-lEq"/>
     </inferredMetricsTieBreakers>
 </document>

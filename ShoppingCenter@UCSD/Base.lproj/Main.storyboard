@@ -63,7 +63,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1018" y="-169"/>
+            <point key="canvasLocation" x="-218" y="-34"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="cyA-2H-9Pe">
@@ -146,7 +146,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="0.75" alpha="0.26000000000000001" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.90000000000000002" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="MyT-qf-vyT"/>
                     </view>
                 </viewController>
@@ -183,7 +183,7 @@
                                 <state key="normal" title="BUY"/>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="0.75" alpha="0.25529751709999998" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.90000000000000002" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="PNY-ey-6ZI"/>
                     </view>
                 </viewController>
@@ -259,7 +259,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="0.75" alpha="0.25529751709999998" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.8978794642857143" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="sGm-EM-EWM"/>
                     </view>
                 </viewController>
@@ -324,7 +324,7 @@
                                 <state key="normal" title="Reset"/>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="0.75" alpha="0.25529751709999998" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.90000000000000002" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="NKK-QY-HJd"/>
                     </view>
                 </viewController>
@@ -335,7 +335,7 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="NWb-xg-glp"/>
-        <segue reference="cWo-Wm-pEb"/>
-        <segue reference="Wui-Y3-lEq"/>
+        <segue reference="79x-GG-4dP"/>
+        <segue reference="2af-fB-JVZ"/>
     </inferredMetricsTieBreakers>
 </document>

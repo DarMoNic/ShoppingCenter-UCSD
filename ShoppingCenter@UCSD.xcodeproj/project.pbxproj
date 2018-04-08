@@ -29,6 +29,8 @@
 		BB560E4B207A19D500D4464F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB560E49207A19D500D4464F /* LaunchScreen.storyboard */; };
 		BB560E56207A19D500D4464F /* ShoppingCenter_UCSDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB560E55207A19D500D4464F /* ShoppingCenter_UCSDTests.swift */; };
 		BB560E61207A19D500D4464F /* ShoppingCenter_UCSDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB560E60207A19D500D4464F /* ShoppingCenter_UCSDUITests.swift */; };
+		BBF8936D207A8C2600DF2919 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF8936C207A8C2600DF2919 /* TableViewController.swift */; };
+		BBF8936F207A965500DF2919 /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF8936E207A965500DF2919 /* ItemTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +80,8 @@
 		BB560E5C207A19D500D4464F /* ShoppingCenter@UCSDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ShoppingCenter@UCSDUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB560E60207A19D500D4464F /* ShoppingCenter_UCSDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCenter_UCSDUITests.swift; sourceTree = "<group>"; };
 		BB560E62207A19D500D4464F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBF8936C207A8C2600DF2919 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		BBF8936E207A965500DF2919 /* ItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,10 +135,9 @@
 				BB560E40207A19D500D4464F /* AppDelegate.swift */,
 				BB560E42207A19D500D4464F /* ViewController.swift */,
 				BB560E44207A19D500D4464F /* Main.storyboard */,
-				BB560E47207A19D500D4464F /* Assets.xcassets */,
-				A7D9C37C207A967400F9139E /* chair.png */,
-				A7092AC3207A995C0003E017 /* car.png */,
-				A7092AC4207A995D0003E017 /* travel_bag.png */,
+
+				BBF8936E207A965500DF2919 /* ItemTableViewCell.swift */,
+
 				A7D9C370207A898F00F9139E /* dislike.png */,
 				A766B35D207A77250098E2D0 /* sell.png */,
 				A7D9C380207A973900F9139E /* like.png */,
@@ -150,6 +153,7 @@
 				A766B353207A64C60098E2D0 /* ForgetPasswordViewController.swift */,
 				A766B355207A6AFF0098E2D0 /* ChangePasswordViewController.swift */,
 				A766B357207A6E1B0098E2D0 /* AccountInfoViewController.swift */,
+				BBF8936C207A8C2600DF2919 /* TableViewController.swift */,
 			);
 			path = "ShoppingCenter@UCSD";
 			sourceTree = "<group>";
@@ -317,8 +321,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A766B352207A56CA0098E2D0 /* LoginViewController.swift in Sources */,
+				BBF8936F207A965500DF2919 /* ItemTableViewCell.swift in Sources */,
 				A766B358207A6E1B0098E2D0 /* AccountInfoViewController.swift in Sources */,
 				BB560E43207A19D500D4464F /* ViewController.swift in Sources */,
+				BBF8936D207A8C2600DF2919 /* TableViewController.swift in Sources */,
 				BB560E41207A19D500D4464F /* AppDelegate.swift in Sources */,
 				A766B354207A64C60098E2D0 /* ForgetPasswordViewController.swift in Sources */,
 				A766B350207A4A0F0098E2D0 /* RegisterPageViewController.swift in Sources */,

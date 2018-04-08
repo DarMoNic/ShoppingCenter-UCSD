@@ -19,7 +19,6 @@
 		BB560E4B207A19D500D4464F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB560E49207A19D500D4464F /* LaunchScreen.storyboard */; };
 		BB560E56207A19D500D4464F /* ShoppingCenter_UCSDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB560E55207A19D500D4464F /* ShoppingCenter_UCSDTests.swift */; };
 		BB560E61207A19D500D4464F /* ShoppingCenter_UCSDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB560E60207A19D500D4464F /* ShoppingCenter_UCSDUITests.swift */; };
-		BB560E71207A505700D4464F /* Categories1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB560E70207A505700D4464F /* Categories1ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,7 +57,6 @@
 		BB560E5C207A19D500D4464F /* ShoppingCenter@UCSDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ShoppingCenter@UCSDUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB560E60207A19D500D4464F /* ShoppingCenter_UCSDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCenter_UCSDUITests.swift; sourceTree = "<group>"; };
 		BB560E62207A19D500D4464F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BB560E70207A505700D4464F /* Categories1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories1ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,7 +113,6 @@
 				BB560E47207A19D500D4464F /* Assets.xcassets */,
 				BB560E49207A19D500D4464F /* LaunchScreen.storyboard */,
 				BB560E4C207A19D500D4464F /* Info.plist */,
-				BB560E70207A505700D4464F /* Categories1ViewController.swift */,
 				A766B34F207A4A0F0098E2D0 /* RegisterPageViewController.swift */,
 				A766B351207A56CA0098E2D0 /* LoginViewController.swift */,
 				A766B353207A64C60098E2D0 /* ForgetPasswordViewController.swift */,
@@ -277,7 +274,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB560E71207A505700D4464F /* Categories1ViewController.swift in Sources */,
 				A766B352207A56CA0098E2D0 /* LoginViewController.swift in Sources */,
 				A766B358207A6E1B0098E2D0 /* AccountInfoViewController.swift in Sources */,
 				BB560E43207A19D500D4464F /* ViewController.swift in Sources */,

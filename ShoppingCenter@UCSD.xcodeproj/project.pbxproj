@@ -16,6 +16,7 @@
 		A766B35C207A76C50098E2D0 /* cart.png in Resources */ = {isa = PBXBuildFile; fileRef = A766B35B207A76C50098E2D0 /* cart.png */; };
 		A766B35E207A77250098E2D0 /* sell.png in Resources */ = {isa = PBXBuildFile; fileRef = A766B35D207A77250098E2D0 /* sell.png */; };
 		A766B360207A7B8D0098E2D0 /* iconCart.png in Resources */ = {isa = PBXBuildFile; fileRef = A766B35F207A7B8D0098E2D0 /* iconCart.png */; };
+		A7D9C372207A898F00F9139E /* dislike.png in Resources */ = {isa = PBXBuildFile; fileRef = A7D9C370207A898F00F9139E /* dislike.png */; };
 		BB560E41207A19D500D4464F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB560E40207A19D500D4464F /* AppDelegate.swift */; };
 		BB560E43207A19D500D4464F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB560E42207A19D500D4464F /* ViewController.swift */; };
 		BB560E46207A19D500D4464F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB560E44207A19D500D4464F /* Main.storyboard */; };
@@ -52,6 +53,8 @@
 		A766B35B207A76C50098E2D0 /* cart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cart.png; path = Assets.xcassets/cart.png; sourceTree = "<group>"; };
 		A766B35D207A77250098E2D0 /* sell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sell.png; path = Assets.xcassets/sell.png; sourceTree = "<group>"; };
 		A766B35F207A7B8D0098E2D0 /* iconCart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iconCart.png; path = Assets.xcassets/iconCart.png; sourceTree = "<group>"; };
+		A7D9C370207A898F00F9139E /* dislike.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dislike.png; path = Assets.xcassets/dislike.png; sourceTree = "<group>"; };
+		A7D9C373207A89DA00F9139E /* like.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = like.png; path = "/Users/daryaverzhbinsky/Desktop/ShoppingCenter-UCSD/ShoppingCenter@UCSD/like.png"; sourceTree = "<absolute>"; };
 		BB560E3D207A19D500D4464F /* ShoppingCenter@UCSD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ShoppingCenter@UCSD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB560E40207A19D500D4464F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB560E42207A19D500D4464F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -118,7 +121,9 @@
 				BB560E40207A19D500D4464F /* AppDelegate.swift */,
 				BB560E42207A19D500D4464F /* ViewController.swift */,
 				BB560E44207A19D500D4464F /* Main.storyboard */,
+				A7D9C370207A898F00F9139E /* dislike.png */,
 				A766B35D207A77250098E2D0 /* sell.png */,
+				A7D9C373207A89DA00F9139E /* like.png */,
 				BB560E47207A19D500D4464F /* Assets.xcassets */,
 				A766B35F207A7B8D0098E2D0 /* iconCart.png */,
 				A766B359207A76B10098E2D0 /* buy.png */,
@@ -264,6 +269,7 @@
 				BB560E48207A19D500D4464F /* Assets.xcassets in Resources */,
 				A766B35A207A76B10098E2D0 /* buy.png in Resources */,
 				A766B360207A7B8D0098E2D0 /* iconCart.png in Resources */,
+				A7D9C372207A898F00F9139E /* dislike.png in Resources */,
 				BB560E46207A19D500D4464F /* Main.storyboard in Resources */,
 				A766B35E207A77250098E2D0 /* sell.png in Resources */,
 			);

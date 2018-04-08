@@ -8,20 +8,49 @@
 
 import UIKit
 
-class Categories1ViewController: UIViewController {
+class Categories1ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate {
 
+    @IBOutlet weak var pickerView1: UIPickerView!
+    
+    @IBOutlet weak var selection: UIButton!
+    
+    let categories = ["Clothes", "Books", "Rides", "Apartments/Living"]
+    
     override func viewDidLoad() {
+        
+        pickerView1.isHidden = true
+        
+        pickerView1.delegate = self
+        pickerView1.dataSource = self
+        
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func selectPressed(_ sender: UIButton) {
+        if pickerView1.isHidden {
+            pickerView1.isHidden = false
+        }
     }
     
+    public func numberOfComponents(in pickerView: UIPickerView) -> Int {
+        return 1
+    }
+    
+    public func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+        return categories.count
+    }
+   
+    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+        return categories[row]
+    }
 
+    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+        
+        selection.setTitle(categories[row], for: .normal)
+        pickerView1.isHidden = true
+    }
     /*
     // MARK: - Navigation
 

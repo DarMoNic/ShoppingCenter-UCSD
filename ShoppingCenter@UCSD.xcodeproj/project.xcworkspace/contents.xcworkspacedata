@@ -2,9 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/daryaverzhbinsky/Desktop/ShoppingCenter-UCSD/ShoppingCenter@UCSD/like.png">
-   </FileRef>
-   <FileRef
       location = "self:">
    </FileRef>
 </Workspace>

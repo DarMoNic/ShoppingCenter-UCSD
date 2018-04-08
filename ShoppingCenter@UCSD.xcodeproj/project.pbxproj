@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A766B350207A4A0F0098E2D0 /* RegisterPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A766B34F207A4A0F0098E2D0 /* RegisterPageViewController.swift */; };
 		A766B352207A56CA0098E2D0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A766B351207A56CA0098E2D0 /* LoginViewController.swift */; };
+		A766B354207A64C60098E2D0 /* ForgetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A766B353207A64C60098E2D0 /* ForgetPasswordViewController.swift */; };
 		BB560E41207A19D500D4464F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB560E40207A19D500D4464F /* AppDelegate.swift */; };
 		BB560E43207A19D500D4464F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB560E42207A19D500D4464F /* ViewController.swift */; };
 		BB560E46207A19D500D4464F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB560E44207A19D500D4464F /* Main.storyboard */; };
@@ -39,6 +40,7 @@
 /* Begin PBXFileReference section */
 		A766B34F207A4A0F0098E2D0 /* RegisterPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPageViewController.swift; sourceTree = "<group>"; };
 		A766B351207A56CA0098E2D0 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A766B353207A64C60098E2D0 /* ForgetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordViewController.swift; sourceTree = "<group>"; };
 		BB560E3D207A19D500D4464F /* ShoppingCenter@UCSD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ShoppingCenter@UCSD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB560E40207A19D500D4464F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB560E42207A19D500D4464F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				BB560E70207A505700D4464F /* Categories1ViewController.swift */,
 				A766B34F207A4A0F0098E2D0 /* RegisterPageViewController.swift */,
 				A766B351207A56CA0098E2D0 /* LoginViewController.swift */,
+				A766B353207A64C60098E2D0 /* ForgetPasswordViewController.swift */,
 			);
 			path = "ShoppingCenter@UCSD";
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 				A766B352207A56CA0098E2D0 /* LoginViewController.swift in Sources */,
 				BB560E43207A19D500D4464F /* ViewController.swift in Sources */,
 				BB560E41207A19D500D4464F /* AppDelegate.swift in Sources */,
+				A766B354207A64C60098E2D0 /* ForgetPasswordViewController.swift in Sources */,
 				A766B350207A4A0F0098E2D0 /* RegisterPageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

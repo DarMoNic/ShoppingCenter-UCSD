@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB560E41207A19D500D4464F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB560E40207A19D500D4464F /* AppDelegate.swift */; };
+		BB560E43207A19D500D4464F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB560E42207A19D500D4464F /* ViewController.swift */; };
+		BB560E46207A19D500D4464F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB560E44207A19D500D4464F /* Main.storyboard */; };
+		BB560E48207A19D500D4464F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB560E47207A19D500D4464F /* Assets.xcassets */; };
+		BB560E4B207A19D500D4464F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB560E49207A19D500D4464F /* LaunchScreen.storyboard */; };
+		BB560E56207A19D500D4464F /* ShoppingCenter_UCSDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB560E55207A19D500D4464F /* ShoppingCenter_UCSDTests.swift */; };
+		BB560E61207A19D500D4464F /* ShoppingCenter_UCSDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB560E60207A19D500D4464F /* ShoppingCenter_UCSDUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB560E52207A19D500D4464F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB560E35207A19D500D4464F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB560E3C207A19D500D4464F;
+			remoteInfo = "ShoppingCenter@UCSD";
+		};
+		BB560E5D207A19D500D4464F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB560E35207A19D500D4464F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB560E3C207A19D500D4464F;
+			remoteInfo = "ShoppingCenter@UCSD";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB560E3D207A19D500D4464F /* ShoppingCenter@UCSD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ShoppingCenter@UCSD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB560E40207A19D500D4464F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BB560E42207A19D500D4464F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BB560E45207A19D500D4464F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB560E47207A19D500D4464F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB560E4A207A19D500D4464F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB560E4C207A19D500D4464F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB560E51207A19D500D4464F /* ShoppingCenter@UCSDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ShoppingCenter@UCSDTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB560E55207A19D500D4464F /* ShoppingCenter_UCSDTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCenter_UCSDTests.swift; sourceTree = "<group>"; };
+		BB560E57207A19D500D4464F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB560E5C207A19D500D4464F /* ShoppingCenter@UCSDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ShoppingCenter@UCSDUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB560E60207A19D500D4464F /* ShoppingCenter_UCSDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCenter_UCSDUITests.swift; sourceTree = "<group>"; };
+		BB560E62207A19D500D4464F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB560E3A207A19D500D4464F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB560E4E207A19D500D4464F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB560E59207A19D500D4464F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB560E34207A19D500D4464F = {
+			isa = PBXGroup;
+			children = (
+				BB560E3F207A19D500D4464F /* ShoppingCenter@UCSD */,
+				BB560E54207A19D500D4464F /* ShoppingCenter@UCSDTests */,
+				BB560E5F207A19D500D4464F /* ShoppingCenter@UCSDUITests */,
+				BB560E3E207A19D500D4464F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB560E3E207A19D500D4464F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB560E3D207A19D500D4464F /* ShoppingCenter@UCSD.app */,
+				BB560E51207A19D500D4464F /* ShoppingCenter@UCSDTests.xctest */,
+				BB560E5C207A19D500D4464F /* ShoppingCenter@UCSDUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB560E3F207A19D500D4464F /* ShoppingCenter@UCSD */ = {
+			isa = PBXGroup;
+			children = (
+				BB560E40207A19D500D4464F /* AppDelegate.swift */,
+				BB560E42207A19D500D4464F /* ViewController.swift */,
+				BB560E44207A19D500D4464F /* Main.storyboard */,
+				BB560E47207A19D500D4464F /* Assets.xcassets */,
+				BB560E49207A19D500D4464F /* LaunchScreen.storyboard */,
+				BB560E4C207A19D500D4464F /* Info.plist */,
+			);
+			path = "ShoppingCenter@UCSD";
+			sourceTree = "<group>";
+		};
+		BB560E54207A19D500D4464F /* ShoppingCenter@UCSDTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB560E55207A19D500D4464F /* ShoppingCenter_UCSDTests.swift */,
+				BB560E57207A19D500D4464F /* Info.plist */,
+			);
+			path = "ShoppingCenter@UCSDTests";
+			sourceTree = "<group>";
+		};
+		BB560E5F207A19D500D4464F /* ShoppingCenter@UCSDUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BB560E60207A19D500D4464F /* ShoppingCenter_UCSDUITests.swift */,
+				BB560E62207A19D500D4464F /* Info.plist */,
+			);
+			path = "ShoppingCenter@UCSDUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB560E3C207A19D500D4464F /* ShoppingCenter@UCSD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB560E65207A19D500D4464F /* Build configuration list for PBXNativeTarget "ShoppingCenter@UCSD" */;
+			buildPhases = (
+				BB560E39207A19D500D4464F /* Sources */,
+				BB560E3A207A19D500D4464F /* Frameworks */,
+				BB560E3B207A19D500D4464F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ShoppingCenter@UCSD";
+			productName = "ShoppingCenter@UCSD";
+			productReference = BB560E3D207A19D500D4464F /* ShoppingCenter@UCSD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB560E50207A19D500D4464F /* ShoppingCenter@UCSDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB560E68207A19D500D4464F /* Build configuration list for PBXNativeTarget "ShoppingCenter@UCSDTests" */;
+			buildPhases = (
+				BB560E4D207A19D500D4464F /* Sources */,
+				BB560E4E207A19D500D4464F /* Frameworks */,
+				BB560E4F207A19D500D4464F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB560E53207A19D500D4464F /* PBXTargetDependency */,
+			);
+			name = "ShoppingCenter@UCSDTests";
+			productName = "ShoppingCenter@UCSDTests";
+			productReference = BB560E51207A19D500D4464F /* ShoppingCenter@UCSDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BB560E5B207A19D500D4464F /* ShoppingCenter@UCSDUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB560E6B207A19D500D4464F /* Build configuration list for PBXNativeTarget "ShoppingCenter@UCSDUITests" */;
+			buildPhases = (
+				BB560E58207A19D500D4464F /* Sources */,
+				BB560E59207A19D500D4464F /* Frameworks */,
+				BB560E5A207A19D500D4464F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB560E5E207A19D500D4464F /* PBXTargetDependency */,
+			);
+			name = "ShoppingCenter@UCSDUITests";
+			productName = "ShoppingCenter@UCSDUITests";
+			productReference = BB560E5C207A19D500D4464F /* ShoppingCenter@UCSDUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB560E35207A19D500D4464F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = DarMoNic;
+				TargetAttributes = {
+					BB560E3C207A19D500D4464F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					BB560E50207A19D500D4464F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BB560E3C207A19D500D4464F;
+					};
+					BB560E5B207A19D500D4464F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BB560E3C207A19D500D4464F;
+					};
+				};
+			};
+			buildConfigurationList = BB560E38207A19D500D4464F /* Build configuration list for PBXProject "ShoppingCenter@UCSD" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB560E34207A19D500D4464F;
+			productRefGroup = BB560E3E207A19D500D4464F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB560E3C207A19D500D4464F /* ShoppingCenter@UCSD */,
+				BB560E50207A19D500D4464F /* ShoppingCenter@UCSDTests */,
+				BB560E5B207A19D500D4464F /* ShoppingCenter@UCSDUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB560E3B207A19D500D4464F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB560E4B207A19D500D4464F /* LaunchScreen.storyboard in Resources */,
+				BB560E48207A19D500D4464F /* Assets.xcassets in Resources */,
+				BB560E46207A19D500D4464F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB560E4F207A19D500D4464F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB560E5A207A19D500D4464F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB560E39207A19D500D4464F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB560E43207A19D500D4464F /* ViewController.swift in Sources */,
+				BB560E41207A19D500D4464F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB560E4D207A19D500D4464F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB560E56207A19D500D4464F /* ShoppingCenter_UCSDTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB560E58207A19D500D4464F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB560E61207A19D500D4464F /* ShoppingCenter_UCSDUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB560E53207A19D500D4464F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB560E3C207A19D500D4464F /* ShoppingCenter@UCSD */;
+			targetProxy = BB560E52207A19D500D4464F /* PBXContainerItemProxy */;
+		};
+		BB560E5E207A19D500D4464F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB560E3C207A19D500D4464F /* ShoppingCenter@UCSD */;
+			targetProxy = BB560E5D207A19D500D4464F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BB560E44207A19D500D4464F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB560E45207A19D500D4464F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BB560E49207A19D500D4464F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB560E4A207A19D500D4464F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB560E63207A19D500D4464F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB560E64207A19D500D4464F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB560E66207A19D500D4464F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ShoppingCenter@UCSD/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DarMoNic.ShoppingCenter-UCSD";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB560E67207A19D500D4464F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ShoppingCenter@UCSD/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DarMoNic.ShoppingCenter-UCSD";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BB560E69207A19D500D4464F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ShoppingCenter@UCSDTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DarMoNic.ShoppingCenter-UCSDTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShoppingCenter@UCSD.app/ShoppingCenter@UCSD";
+			};
+			name = Debug;
+		};
+		BB560E6A207A19D500D4464F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ShoppingCenter@UCSDTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DarMoNic.ShoppingCenter-UCSDTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShoppingCenter@UCSD.app/ShoppingCenter@UCSD";
+			};
+			name = Release;
+		};
+		BB560E6C207A19D500D4464F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ShoppingCenter@UCSDUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DarMoNic.ShoppingCenter-UCSDUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ShoppingCenter@UCSD";
+			};
+			name = Debug;
+		};
+		BB560E6D207A19D500D4464F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ShoppingCenter@UCSDUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DarMoNic.ShoppingCenter-UCSDUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ShoppingCenter@UCSD";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB560E38207A19D500D4464F /* Build configuration list for PBXProject "ShoppingCenter@UCSD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB560E63207A19D500D4464F /* Debug */,
+				BB560E64207A19D500D4464F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB560E65207A19D500D4464F /* Build configuration list for PBXNativeTarget "ShoppingCenter@UCSD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB560E66207A19D500D4464F /* Debug */,
+				BB560E67207A19D500D4464F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB560E68207A19D500D4464F /* Build configuration list for PBXNativeTarget "ShoppingCenter@UCSDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB560E69207A19D500D4464F /* Debug */,
+				BB560E6A207A19D500D4464F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB560E6B207A19D500D4464F /* Build configuration list for PBXNativeTarget "ShoppingCenter@UCSDUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB560E6C207A19D500D4464F /* Debug */,
+				BB560E6D207A19D500D4464F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB560E35207A19D500D4464F /* Project object */;
+}

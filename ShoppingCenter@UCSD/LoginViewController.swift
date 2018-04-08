@@ -33,7 +33,16 @@ class LoginViewController: UIViewController {
                 // login is successful
                 UserDefaults.standard.set(true, forKey: "isUserLoggedIn");
                 UserDefaults.standard.synchronize();
-                self.dismiss(animated: true, completion: nil);
+                //self.dismiss(animated: true, completion: nil);
+                
+                let alert = UIAlertController(title: "Success", message: "Logged In", preferredStyle: .alert)
+                let action = UIAlertAction(title: "OK", style: .default) { (action) -> Void in
+                    let viewControllerYouWantToPresent = self.storyboard?.instantiateViewController(withIdentifier: "HomePage")
+                    self.present(viewControllerYouWantToPresent!, animated: true, completion: nil)
+                }
+                alert.addAction(action)
+                self.present(alert, animated: true, completion: nil)
+                
             } else {
                 displayAlertMessage(userMessage: "Password Does Not Match");
                 return;

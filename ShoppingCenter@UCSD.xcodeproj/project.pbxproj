@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A7092AC5207A995D0003E017 /* car.png in Resources */ = {isa = PBXBuildFile; fileRef = A7092AC3207A995C0003E017 /* car.png */; };
-		A7092AC6207A995D0003E017 /* travel_bag.png in Resources */ = {isa = PBXBuildFile; fileRef = A7092AC4207A995D0003E017 /* travel_bag.png */; };
 		A766B350207A4A0F0098E2D0 /* RegisterPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A766B34F207A4A0F0098E2D0 /* RegisterPageViewController.swift */; };
 		A766B352207A56CA0098E2D0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A766B351207A56CA0098E2D0 /* LoginViewController.swift */; };
 		A766B354207A64C60098E2D0 /* ForgetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A766B353207A64C60098E2D0 /* ForgetPasswordViewController.swift */; };
@@ -21,16 +19,17 @@
 		A7D9C372207A898F00F9139E /* dislike.png in Resources */ = {isa = PBXBuildFile; fileRef = A7D9C370207A898F00F9139E /* dislike.png */; };
 		A7D9C379207A953100F9139E /* book.png in Resources */ = {isa = PBXBuildFile; fileRef = A7D9C375207A953100F9139E /* book.png */; };
 		A7D9C37B207A953100F9139E /* clothes.png in Resources */ = {isa = PBXBuildFile; fileRef = A7D9C377207A953100F9139E /* clothes.png */; };
-		A7D9C37D207A967400F9139E /* chair.png in Resources */ = {isa = PBXBuildFile; fileRef = A7D9C37C207A967400F9139E /* chair.png */; };
 		BB560E41207A19D500D4464F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB560E40207A19D500D4464F /* AppDelegate.swift */; };
 		BB560E43207A19D500D4464F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB560E42207A19D500D4464F /* ViewController.swift */; };
 		BB560E46207A19D500D4464F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB560E44207A19D500D4464F /* Main.storyboard */; };
-		BB560E48207A19D500D4464F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB560E47207A19D500D4464F /* Assets.xcassets */; };
 		BB560E4B207A19D500D4464F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB560E49207A19D500D4464F /* LaunchScreen.storyboard */; };
 		BB560E56207A19D500D4464F /* ShoppingCenter_UCSDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB560E55207A19D500D4464F /* ShoppingCenter_UCSDTests.swift */; };
 		BB560E61207A19D500D4464F /* ShoppingCenter_UCSDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB560E60207A19D500D4464F /* ShoppingCenter_UCSDUITests.swift */; };
 		BBF8936D207A8C2600DF2919 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF8936C207A8C2600DF2919 /* TableViewController.swift */; };
-		BBF8936F207A965500DF2919 /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF8936E207A965500DF2919 /* ItemTableViewCell.swift */; };
+		BBF89374207AC72C00DF2919 /* TableItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF89373207AC72C00DF2919 /* TableItemViewController.swift */; };
+		BBF89376207AD19D00DF2919 /* iphone_case.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBF89375207AD19C00DF2919 /* iphone_case.jpg */; };
+		BBF89378207AD58800DF2919 /* mmw book.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF89377207AD58800DF2919 /* mmw book.png */; };
+		BBF8937A207AD5F000DF2919 /* t-shirt.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BBF89379207AD5EF00DF2919 /* t-shirt.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,8 +50,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A7092AC3207A995C0003E017 /* car.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = car.png; path = Assets.xcassets/car.png; sourceTree = "<group>"; };
-		A7092AC4207A995D0003E017 /* travel_bag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = travel_bag.png; path = Assets.xcassets/travel_bag.png; sourceTree = "<group>"; };
 		A766B34F207A4A0F0098E2D0 /* RegisterPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPageViewController.swift; sourceTree = "<group>"; };
 		A766B351207A56CA0098E2D0 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		A766B353207A64C60098E2D0 /* ForgetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordViewController.swift; sourceTree = "<group>"; };
@@ -65,13 +62,10 @@
 		A7D9C370207A898F00F9139E /* dislike.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dislike.png; path = Assets.xcassets/dislike.png; sourceTree = "<group>"; };
 		A7D9C375207A953100F9139E /* book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = book.png; path = Assets.xcassets/book.png; sourceTree = "<group>"; };
 		A7D9C377207A953100F9139E /* clothes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = clothes.png; path = Assets.xcassets/clothes.png; sourceTree = "<group>"; };
-		A7D9C37C207A967400F9139E /* chair.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chair.png; path = Assets.xcassets/chair.png; sourceTree = "<group>"; };
-		A7D9C380207A973900F9139E /* like.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = like.png; path = "/Users/daryaverzhbinsky/Desktop/ShoppingCenter-UCSD/ShoppingCenter@UCSD/like.png"; sourceTree = "<absolute>"; };
 		BB560E3D207A19D500D4464F /* ShoppingCenter@UCSD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ShoppingCenter@UCSD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB560E40207A19D500D4464F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB560E42207A19D500D4464F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BB560E45207A19D500D4464F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BB560E47207A19D500D4464F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB560E4A207A19D500D4464F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB560E4C207A19D500D4464F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB560E51207A19D500D4464F /* ShoppingCenter@UCSDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ShoppingCenter@UCSDTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -81,7 +75,10 @@
 		BB560E60207A19D500D4464F /* ShoppingCenter_UCSDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCenter_UCSDUITests.swift; sourceTree = "<group>"; };
 		BB560E62207A19D500D4464F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BBF8936C207A8C2600DF2919 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
-		BBF8936E207A965500DF2919 /* ItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
+		BBF89373207AC72C00DF2919 /* TableItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableItemViewController.swift; sourceTree = "<group>"; };
+		BBF89375207AD19C00DF2919 /* iphone_case.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = iphone_case.jpg; path = ../../../Downloads/iphone_case.jpg; sourceTree = "<group>"; };
+		BBF89377207AD58800DF2919 /* mmw book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "mmw book.png"; path = "../../../Downloads/mmw book.png"; sourceTree = "<group>"; };
+		BBF89379207AD5EF00DF2919 /* t-shirt.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "t-shirt.jpeg"; path = "../../../Downloads/t-shirt.jpeg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +113,7 @@
 				BB560E54207A19D500D4464F /* ShoppingCenter@UCSDTests */,
 				BB560E5F207A19D500D4464F /* ShoppingCenter@UCSDUITests */,
 				BB560E3E207A19D500D4464F /* Products */,
+				BBF89370207AA78A00DF2919 /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,12 +133,12 @@
 				BB560E40207A19D500D4464F /* AppDelegate.swift */,
 				BB560E42207A19D500D4464F /* ViewController.swift */,
 				BB560E44207A19D500D4464F /* Main.storyboard */,
-
-				BBF8936E207A965500DF2919 /* ItemTableViewCell.swift */,
-
+				BBF89379207AD5EF00DF2919 /* t-shirt.jpeg */,
+				BBF89377207AD58800DF2919 /* mmw book.png */,
+				BBF89375207AD19C00DF2919 /* iphone_case.jpg */,
+				BBF89373207AC72C00DF2919 /* TableItemViewController.swift */,
 				A7D9C370207A898F00F9139E /* dislike.png */,
 				A766B35D207A77250098E2D0 /* sell.png */,
-				A7D9C380207A973900F9139E /* like.png */,
 				A7D9C375207A953100F9139E /* book.png */,
 				A7D9C377207A953100F9139E /* clothes.png */,
 				A766B35F207A7B8D0098E2D0 /* iconCart.png */,
@@ -174,6 +172,13 @@
 				BB560E62207A19D500D4464F /* Info.plist */,
 			);
 			path = "ShoppingCenter@UCSDUITests";
+			sourceTree = "<group>";
+		};
+		BBF89370207AA78A00DF2919 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Recovered References";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,15 +288,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7092AC5207A995D0003E017 /* car.png in Resources */,
 				BB560E4B207A19D500D4464F /* LaunchScreen.storyboard in Resources */,
-				A7092AC6207A995D0003E017 /* travel_bag.png in Resources */,
 				A766B35C207A76C50098E2D0 /* cart.png in Resources */,
-				A7D9C37D207A967400F9139E /* chair.png in Resources */,
-				BB560E48207A19D500D4464F /* Assets.xcassets in Resources */,
 				A766B35A207A76B10098E2D0 /* buy.png in Resources */,
+				BBF8937A207AD5F000DF2919 /* t-shirt.jpeg in Resources */,
 				A766B360207A7B8D0098E2D0 /* iconCart.png in Resources */,
+				BBF89376207AD19D00DF2919 /* iphone_case.jpg in Resources */,
 				A7D9C372207A898F00F9139E /* dislike.png in Resources */,
+				BBF89378207AD58800DF2919 /* mmw book.png in Resources */,
 				A7D9C379207A953100F9139E /* book.png in Resources */,
 				A7D9C37B207A953100F9139E /* clothes.png in Resources */,
 				BB560E46207A19D500D4464F /* Main.storyboard in Resources */,
@@ -320,8 +324,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBF89374207AC72C00DF2919 /* TableItemViewController.swift in Sources */,
 				A766B352207A56CA0098E2D0 /* LoginViewController.swift in Sources */,
-				BBF8936F207A965500DF2919 /* ItemTableViewCell.swift in Sources */,
 				A766B358207A6E1B0098E2D0 /* AccountInfoViewController.swift in Sources */,
 				BB560E43207A19D500D4464F /* ViewController.swift in Sources */,
 				BBF8936D207A8C2600DF2919 /* TableViewController.swift in Sources */,

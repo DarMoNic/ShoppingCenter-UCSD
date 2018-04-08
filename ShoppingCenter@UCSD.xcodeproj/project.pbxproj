@@ -19,6 +19,8 @@
 		A7D9C372207A898F00F9139E /* dislike.png in Resources */ = {isa = PBXBuildFile; fileRef = A7D9C370207A898F00F9139E /* dislike.png */; };
 		A7D9C379207A953100F9139E /* book.png in Resources */ = {isa = PBXBuildFile; fileRef = A7D9C375207A953100F9139E /* book.png */; };
 		A7D9C37B207A953100F9139E /* clothes.png in Resources */ = {isa = PBXBuildFile; fileRef = A7D9C377207A953100F9139E /* clothes.png */; };
+		A7E19C5D207AB6CB003027BB /* BooksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E19C5C207AB6CB003027BB /* BooksTableViewController.swift */; };
+		A7E19C5F207AC290003027BB /* BooksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E19C5E207AC290003027BB /* BooksViewController.swift */; };
 		BB560E41207A19D500D4464F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB560E40207A19D500D4464F /* AppDelegate.swift */; };
 		BB560E43207A19D500D4464F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB560E42207A19D500D4464F /* ViewController.swift */; };
 		BB560E46207A19D500D4464F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB560E44207A19D500D4464F /* Main.storyboard */; };
@@ -62,6 +64,9 @@
 		A7D9C370207A898F00F9139E /* dislike.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dislike.png; path = Assets.xcassets/dislike.png; sourceTree = "<group>"; };
 		A7D9C375207A953100F9139E /* book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = book.png; path = Assets.xcassets/book.png; sourceTree = "<group>"; };
 		A7D9C377207A953100F9139E /* clothes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = clothes.png; path = Assets.xcassets/clothes.png; sourceTree = "<group>"; };
+		A7D9C380207A973900F9139E /* like.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = like.png; path = "/Users/daryaverzhbinsky/Desktop/ShoppingCenter-UCSD/ShoppingCenter@UCSD/like.png"; sourceTree = "<absolute>"; };
+		A7E19C5C207AB6CB003027BB /* BooksTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksTableViewController.swift; sourceTree = "<group>"; };
+		A7E19C5E207AC290003027BB /* BooksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksViewController.swift; sourceTree = "<group>"; };
 		BB560E3D207A19D500D4464F /* ShoppingCenter@UCSD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ShoppingCenter@UCSD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB560E40207A19D500D4464F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB560E42207A19D500D4464F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +111,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A7E19C5B207AAA6F003027BB /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
 		BB560E34207A19D500D4464F = {
 			isa = PBXGroup;
 			children = (
@@ -113,7 +125,8 @@
 				BB560E54207A19D500D4464F /* ShoppingCenter@UCSDTests */,
 				BB560E5F207A19D500D4464F /* ShoppingCenter@UCSDUITests */,
 				BB560E3E207A19D500D4464F /* Products */,
-				BBF89370207AA78A00DF2919 /* Recovered References */,
+
+				A7E19C5B207AAA6F003027BB /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -137,6 +150,7 @@
 				BBF89377207AD58800DF2919 /* mmw book.png */,
 				BBF89375207AD19C00DF2919 /* iphone_case.jpg */,
 				BBF89373207AC72C00DF2919 /* TableItemViewController.swift */,
+				BBF8936E207A965500DF2919 /* ItemTableViewCell.swift */,
 				A7D9C370207A898F00F9139E /* dislike.png */,
 				A766B35D207A77250098E2D0 /* sell.png */,
 				A7D9C375207A953100F9139E /* book.png */,
@@ -152,6 +166,8 @@
 				A766B355207A6AFF0098E2D0 /* ChangePasswordViewController.swift */,
 				A766B357207A6E1B0098E2D0 /* AccountInfoViewController.swift */,
 				BBF8936C207A8C2600DF2919 /* TableViewController.swift */,
+				A7E19C5C207AB6CB003027BB /* BooksTableViewController.swift */,
+				A7E19C5E207AC290003027BB /* BooksViewController.swift */,
 			);
 			path = "ShoppingCenter@UCSD";
 			sourceTree = "<group>";
@@ -326,10 +342,13 @@
 			files = (
 				BBF89374207AC72C00DF2919 /* TableItemViewController.swift in Sources */,
 				A766B352207A56CA0098E2D0 /* LoginViewController.swift in Sources */,
+				BBF8936F207A965500DF2919 /* ItemTableViewCell.swift in Sources */,
+				A7E19C5F207AC290003027BB /* BooksViewController.swift in Sources */,
 				A766B358207A6E1B0098E2D0 /* AccountInfoViewController.swift in Sources */,
 				BB560E43207A19D500D4464F /* ViewController.swift in Sources */,
 				BBF8936D207A8C2600DF2919 /* TableViewController.swift in Sources */,
 				BB560E41207A19D500D4464F /* AppDelegate.swift in Sources */,
+				A7E19C5D207AB6CB003027BB /* BooksTableViewController.swift in Sources */,
 				A766B354207A64C60098E2D0 /* ForgetPasswordViewController.swift in Sources */,
 				A766B350207A4A0F0098E2D0 /* RegisterPageViewController.swift in Sources */,
 				A766B356207A6AFF0098E2D0 /* ChangePasswordViewController.swift in Sources */,

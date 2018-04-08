@@ -487,34 +487,6 @@
             </objects>
             <point key="canvasLocation" x="-248.80000000000001" y="-2058.6206896551726"/>
         </scene>
-        <!--Books Table View Controller-->
-        <scene sceneID="ISP-Hb-t52">
-            <objects>
-                <tableViewController storyboardIdentifier="bookCell" useStoryboardIdentifierAsRestorationIdentifier="YES" id="9xe-GC-YTb" customClass="BooksTableViewController" customModule="ShoppingCenter_UCSD" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="cell" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="ecp-H2-YTX">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="C8J-Jr-oa6">
-                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="C8J-Jr-oa6" id="RXe-Ga-igD">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="9xe-GC-YTb" id="I8H-0c-kDw"/>
-                            <outlet property="delegate" destination="9xe-GC-YTb" id="XL6-dg-OmS"/>
-                        </connections>
-                    </tableView>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="reT-hA-Oj9" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="435" y="-2050"/>
-        </scene>
         <!--View Controller-->
         <scene sceneID="Tqf-3T-pUd">
             <objects>

@@ -12,6 +12,10 @@
 		A766B354207A64C60098E2D0 /* ForgetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A766B353207A64C60098E2D0 /* ForgetPasswordViewController.swift */; };
 		A766B356207A6AFF0098E2D0 /* ChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A766B355207A6AFF0098E2D0 /* ChangePasswordViewController.swift */; };
 		A766B358207A6E1B0098E2D0 /* AccountInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A766B357207A6E1B0098E2D0 /* AccountInfoViewController.swift */; };
+		A766B35A207A76B10098E2D0 /* buy.png in Resources */ = {isa = PBXBuildFile; fileRef = A766B359207A76B10098E2D0 /* buy.png */; };
+		A766B35C207A76C50098E2D0 /* cart.png in Resources */ = {isa = PBXBuildFile; fileRef = A766B35B207A76C50098E2D0 /* cart.png */; };
+		A766B35E207A77250098E2D0 /* sell.png in Resources */ = {isa = PBXBuildFile; fileRef = A766B35D207A77250098E2D0 /* sell.png */; };
+		A766B360207A7B8D0098E2D0 /* iconCart.png in Resources */ = {isa = PBXBuildFile; fileRef = A766B35F207A7B8D0098E2D0 /* iconCart.png */; };
 		BB560E41207A19D500D4464F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB560E40207A19D500D4464F /* AppDelegate.swift */; };
 		BB560E43207A19D500D4464F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB560E42207A19D500D4464F /* ViewController.swift */; };
 		BB560E46207A19D500D4464F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB560E44207A19D500D4464F /* Main.storyboard */; };
@@ -44,6 +48,10 @@
 		A766B353207A64C60098E2D0 /* ForgetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordViewController.swift; sourceTree = "<group>"; };
 		A766B355207A6AFF0098E2D0 /* ChangePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewController.swift; sourceTree = "<group>"; };
 		A766B357207A6E1B0098E2D0 /* AccountInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountInfoViewController.swift; sourceTree = "<group>"; };
+		A766B359207A76B10098E2D0 /* buy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = buy.png; path = Assets.xcassets/buy.png; sourceTree = "<group>"; };
+		A766B35B207A76C50098E2D0 /* cart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cart.png; path = Assets.xcassets/cart.png; sourceTree = "<group>"; };
+		A766B35D207A77250098E2D0 /* sell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sell.png; path = Assets.xcassets/sell.png; sourceTree = "<group>"; };
+		A766B35F207A7B8D0098E2D0 /* iconCart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iconCart.png; path = Assets.xcassets/iconCart.png; sourceTree = "<group>"; };
 		BB560E3D207A19D500D4464F /* ShoppingCenter@UCSD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ShoppingCenter@UCSD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB560E40207A19D500D4464F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB560E42207A19D500D4464F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -110,7 +118,11 @@
 				BB560E40207A19D500D4464F /* AppDelegate.swift */,
 				BB560E42207A19D500D4464F /* ViewController.swift */,
 				BB560E44207A19D500D4464F /* Main.storyboard */,
+				A766B35D207A77250098E2D0 /* sell.png */,
 				BB560E47207A19D500D4464F /* Assets.xcassets */,
+				A766B35F207A7B8D0098E2D0 /* iconCart.png */,
+				A766B359207A76B10098E2D0 /* buy.png */,
+				A766B35B207A76C50098E2D0 /* cart.png */,
 				BB560E49207A19D500D4464F /* LaunchScreen.storyboard */,
 				BB560E4C207A19D500D4464F /* Info.plist */,
 				A766B34F207A4A0F0098E2D0 /* RegisterPageViewController.swift */,
@@ -248,8 +260,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB560E4B207A19D500D4464F /* LaunchScreen.storyboard in Resources */,
+				A766B35C207A76C50098E2D0 /* cart.png in Resources */,
 				BB560E48207A19D500D4464F /* Assets.xcassets in Resources */,
+				A766B35A207A76B10098E2D0 /* buy.png in Resources */,
+				A766B360207A7B8D0098E2D0 /* iconCart.png in Resources */,
 				BB560E46207A19D500D4464F /* Main.storyboard in Resources */,
+				A766B35E207A77250098E2D0 /* sell.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1063,7 +1063,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="$$$$$$" textAlignment="natural" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="vEc-z6-ftd">
                                 <rect key="frame" x="18" y="236" width="339" height="30"/>
@@ -2339,12 +2339,12 @@
         <segue reference="yG8-Zo-tSU"/>
         <segue reference="M2N-ly-r7o"/>
         <segue reference="4pI-PH-zyF"/>
-        <segue reference="7zz-Vo-8gw"/>
+        <segue reference="LpK-E9-436"/>
         <segue reference="UDA-4l-lZS"/>
         <segue reference="8QI-CU-b48"/>
         <segue reference="Men-Ax-2qD"/>
-        <segue reference="yJo-FO-dRL"/>
-        <segue reference="bDH-n0-ohF"/>
+        <segue reference="FtA-e9-5P5"/>
+        <segue reference="Ozy-1I-fka"/>
         <segue reference="jyQ-3h-0eW"/>
     </inferredMetricsTieBreakers>
 </document>
